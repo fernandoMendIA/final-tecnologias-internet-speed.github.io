@@ -4,6 +4,6 @@ import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
   integrations: [react(), tailwind()],
-  site: 'https://fernandomendia.github.io/final-tecnologias-internet-speed.github.io', // workflow commit actions
+  site: 'https://fernandoMendIA.github.io', // workflow commit actions
 
 });
