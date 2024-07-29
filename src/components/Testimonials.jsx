@@ -10,24 +10,23 @@ const testimonialsData = [
     customerName: "John Watkins",
     customerTitle: "Founder of Dashflow",
     content:
-      "Mantener una distancia segura con otros vehículos.",
+      "The powerful analytic tools have helped us streamline our processes and make data-driven decisions that positively impact our efficiency. Tailcast has been a game-changer for our business. The platform is easy to use, and the insights we've gained have driven significant improvements.",
     image: testimonial1,
   },
   {
     customerName: "John Watkins",
     customerTitle: "Founder of Dashflow",
     content:
-      "Respetar los límites de velocidad.",
+      "The powerful analytic tools have helped us streamline our processes and make data-driven decisions that positively impact our efficiency. Tailcast has been a game-changer for our business. The platform is easy to use, and the insights we've gained have driven significant improvements.",
     image: testimonial2,
   },
   {
     customerName: "John Watkins",
     customerTitle: "Founder of Dashflow",
     content:
-      "No utilizar el teléfono móvil mientras conduces.",
+      "The powerful analytic tools have helped us streamline our processes and make data-driven decisions that positively impact our efficiency. Tailcast has been a game-changer for our business. The platform is easy to use, and the insights we've gained have driven significant improvements.",
     image: testimonial3,
   },
-  
 ];
 
 export const Testimonials = () => (
@@ -41,10 +40,10 @@ export const Testimonials = () => (
         transition={{ duration: 0.4, delay: 0.3 }}
       >
         <div className="custom-block-subtitle text-center mb-6">
-          Comentarios
+          Testimonials
         </div>
         <div className="custom-block-big-title text-center mb-16 px-8 sm:px-24 md:px-48">
-          Tu también puedes promover estos consejos y muchos otros mas.
+          People like you love Tailcast
         </div>
 
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-5 xl:gap-10 px-6 xl:px-0 items-center">

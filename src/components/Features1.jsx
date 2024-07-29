@@ -9,7 +9,7 @@ import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 export const Features1 = () => {
   return (
     <section
-      className="w-full bg-customDarkBg2 mt-0 mb-8 sm:mt-0 sm:mb-16 xl:mt-0  xl:m pt-[2rem]  md:pt-[12vw] lg:pt-0"
+      className="w-full bg-customDarkBg2 mt-20 mb-8 sm:mt-16 sm:mb-16 xl:mt-0  xl:m pt-[2rem]  md:pt-[12vw] lg:pt-0"
       id="features"
     >
       <motion.div
@@ -20,26 +20,26 @@ export const Features1 = () => {
       >
         <div className="flex flex-wrap items-center 2xl:w-[1450px] xl:w-[1300px] w-11/12 pt-10 mx-auto md:pl-4 xl:pr-16 xl:pl-16">
           <div className="w-full lg:w-1/2 mb-12 lg:mb-0">
-            <div className="mt-6 mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
-              <span className="custom-block-subtitle">Nuestro equipo de desarrolladores exploran soluciones inovadoras.</span>
+            <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
+              <span className="custom-block-subtitle">Nuestro equipo de desarrolladores es el mejor.</span>
               <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
                 Contactanos:
               </h2>
               <p className="mb-10 text-customGrayText leading-loose">
-                chaladevs es una startup de desarrollo de software y exploradores de nuevas herramietas con AI:
+                FernandoCorp es la mejor empresa de desarrollo de software con AI:
               </p>
               <ul className="mb-6 text-white">
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Email: fernandox216@gmail.com</span>
+                  <span>Email: inventado@gnoexiste.com</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Telf: 75782306</span>
+                  <span>Telf: 128-347190</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Sucre-Bolivia</span>
+                  <span>Direccion: Siempre viva 742</span>
                 </li>
               </ul>
             </div>

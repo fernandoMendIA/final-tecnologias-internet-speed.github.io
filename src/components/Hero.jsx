@@ -25,9 +25,9 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.05 }}
         >
-          <div className="text-5xl sm:text-6xl lg:text-7xl xl:text-7xl pt-20 font-bold tracking-wide  text-white px-8 sm:px-8 md:px-20 lg:px-4">
-            <span className="inline md:hidden">Conducción mas segura con AI</span>
-            <span className="hidden md:inline">Promoviendo la conducción segura y el uso de software con AI.</span>
+          <div className="text-5xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-8 md:px-20 lg:px-4">
+            <span className="inline md:hidden"> Software con IA</span>
+            <span className="hidden md:inline">Software con IA para deteccion de exceso de velocidad</span>
           </div>
 
         </motion.div>
@@ -41,15 +41,29 @@ export const Hero = () => {
 
             <div
               className="w-64 sm:w-52 h-12 rounded-xl font-bold text-white border border-solid  flex justify-center items-center cursor-pointer bg-customDarkBg2 hover:bg-customDarkBg3 border-customPrimary transition"
-              onClick={() => setIsModalOpen(true)}
+              
             >
-              Demo
+              Live demo
             </div>
           </div>
-
         </motion.div>
         
-       
+        <div className="relative w-screen flex justify-center ">
+          <div className="custom-shape-divider-bottom-1665343298 mt-4 sm:mt-16 md:mt-52 hidden lg:block">
+            <svg
+              data-name="Layer 1"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 1200 120"
+              preserveAspectRatio="none"
+              className=" bg-customDarkBg2"
+            >
+              <path
+                d="M1200 0L0 0 598.97 114.72 1200 0z"
+                className="shape-fill custom-bg-dark1"
+              ></path>
+            </svg>
+          </div>
+        </div>
       </div>
       {isModalOpen && (
         <InvitationModal isOpen={isModalOpen} setIsOpen={setIsModalOpen} />

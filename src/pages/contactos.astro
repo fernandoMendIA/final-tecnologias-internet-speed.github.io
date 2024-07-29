@@ -1,6 +1,8 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { Navbar } from "../components/Navbar.jsx";
+import { Testimonials } from "../components/Testimonials.jsx";
+import { FAQ } from "../components/FAQ.jsx";
 import { Divider } from "../components/Divider";
 import { Footer } from "../components/Footer.jsx";
 import { ScrollUpButton } from "../components/ScrollUpButton";
@@ -12,10 +14,8 @@ import "../styles/Diagonals.css";
 
 <Layout title="Contactos">
   <Navbar client:load />
-
   <Features1 client:load />
-  <Divider/>
-
+  <Divider />
   <Footer />
   <ScrollUpButton client:load />
 </Layout>

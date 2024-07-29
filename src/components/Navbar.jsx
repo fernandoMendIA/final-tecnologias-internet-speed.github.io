@@ -2,17 +2,20 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 import { TailcastLogo } from "../assets/logos/TailcastLogo";
+import { GithubIcon } from "../assets/icons/GithubIcon";
 
 const navbarLinks = [
   { label: "Home", href: "/", ariaLabel: "Home" },
   { label: "Contactos", href: "/contactos", ariaLabel: "Contactos" },
+
+
+
 ];
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    
     <nav className="w-full h-20 flex flex-col justify-center items-center fixed bg-customDarkBg1 lg:bg-customDarkBgTransparent z-40 lg:backdrop-blur-xl">
       <div className="2xl:w-[1280px] xl:w-10/12 w-11/12 flex justify-between items-center relative">
         <motion.div
@@ -27,7 +30,7 @@ export const Navbar = () => {
                 <TailcastLogo />
               </div>
               <div className="text-white font-['Inter'] font-bold text-xl">
-                chaladevs
+                IADEVS
               </div>
             </div>
           </a>
@@ -93,6 +96,15 @@ export const Navbar = () => {
                   {label}
                 </a>
               ))}
+              <a
+                className="text-white custom-border-gray rounded-xl
+           bg-customDarkBg2 hover:bg-customDarkBg3  border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex"
+                href="https://github.com/matt765/Tidestream"
+                target="_blank"
+              >
+                <GithubIcon />
+                Source code
+              </a>
             </div>
           </motion.div>
         )}
